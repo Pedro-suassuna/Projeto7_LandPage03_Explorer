@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px*/
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+
+  background: linear-gradient(
+    180deg,
+    rgba(95, 99, 100, 0) 82.08%,
+    rgba(5, 238, 180, 0.137) 100%
+  );
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 100rem;
+  margin: 0rem auto;
+  padding-top: 6.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 5.8rem;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 4.8rem;
+
+  font-family: "Mulish", sans-serif;
+}
+
+a {
+  color: #38373b;
+  text-decoration: none;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main img:not(main section button img) {
+  width: 41.7rem;
+  height: 43.4rem;
+}
+
+h1 {
+  font-family: "Mulish", sans-serif;
+  color: #1f1534;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  font-weight: normal;
+
+  width: 49rem;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+section p {
+  color: #7d7987;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  margin: 4rem 0rem;
+
+  width: 43.8rem;
+}
+
+button {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #f9f9f9;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  background-color: #69b99d;
+
+  padding: 1.4rem 3.2rem 1.5rem;
+  border: none;
+  border-radius: 0.4rem;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5e9e87;
+  animation: size 1000ms;
+}
+
+@keyframes size {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+footer {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  color: #1f1534;
+
+  text-align: center;
+
+  margin-top: 8rem;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
