@@ -81,7 +81,7 @@ O serviço ideal para cuidar da sua saúde! 🏋🏽‍♂️
 
 </p>
 
-- Acesse o projeto finalizado aqui -> [🏆](https://pedro-suassuna.github.io/boraCodar_Desafio4)
+- Acesse o projeto finalizado aqui -> [🏆](https://pedro-suassuna.github.io/Projeto7_LandPage03_Explorer/)
 
 <br>
 
